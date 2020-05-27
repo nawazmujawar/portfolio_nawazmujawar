@@ -1,0 +1,59 @@
+@font-face {
+  font-family: RobotoCondense;
+  src: url(./assets/RobotoCondensed-Light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Economics;
+  src: url(./assets/Economica-Bold.ttf);
+
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'RobotoCondense';
+}
+
+h1 , h2 , h3 , h4 , h5 {
+    font-family: 'Economics';
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+hr{
+    margin: 5.5%;
+}
+
+.primary-btn{
+    border-color: black;
+}
+
+.title-fade-out{
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+.title-fade-in{
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@keyframes fade-out{
+  from {opacity: 100;}
+  to{opacity: 0;}
+}
