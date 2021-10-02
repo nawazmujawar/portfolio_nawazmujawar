@@ -1,0 +1,17 @@
+#btnToggle{
+    transition: 1s ease; 
+}
+.info{
+    opacity: 1;
+    z-index: -3;
+    /* transition: 2s;   */
+    animation: slide .95s;
+}
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
